@@ -4,7 +4,6 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
 import java.time.LocalDate;
-
 import org.junit.Test;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -19,7 +18,7 @@ public class HomeControllerTest
 	{
 		ModelAndView result = homeController.getHome();
 		assertNotNull(result);
-		assertEquals("home/home.jsp", result.getViewName());
+		assertEquals("homepage", result.getViewName());
 	}
 	
 	@Test

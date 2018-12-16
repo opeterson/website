@@ -31,7 +31,7 @@ public class HomeController
 	public ModelAndView getHome()
 	{
 		LOGGER.debug("Handling request for home page.");
-		ModelAndView view = new ModelAndView("home/home.jsp");
+		ModelAndView view = new ModelAndView("homepage");
 		LOGGER.debug("Returning view for home page.");
 		return view;
 	}

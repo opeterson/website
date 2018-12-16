@@ -40,7 +40,7 @@ public class WebAppConfig implements WebMvcConfigurer
 	{
         TilesConfigurer tilesConfigurer = new TilesConfigurer();
         tilesConfigurer.setDefinitions(
-          new String[] { "/WEB-INF/views/**/*tiles.xml" });
+          new String[] { "/WEB-INF/views/**/*tiles.xml", "/WEB-INF/templates/*tiles.xml" });
         tilesConfigurer.setCheckRefresh(true);
          
         return tilesConfigurer;

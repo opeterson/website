@@ -54,8 +54,8 @@ public class WebAppConfig implements WebMvcConfigurer
 	}
 	
     @Override
-    public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("WEB-INF/styles/**")
-          .addResourceLocations("WEB-INF/styles/");
+    public void addResourceHandlers(ResourceHandlerRegistry registry) 
+    {
+        registry.addResourceHandler("/resources/**/**").addResourceLocations("/resources/");
     }
 }

@@ -8,6 +8,7 @@
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title><tiles:getAsString name="title"/></title>
+	<link rel="stylesheet" href="<c:url value="/resources/styles/base-styles.css"/>" type="text/css" media="screen" />
 	</head>
 	<div class="header-container">
 		<tiles:insertAttribute name="header" />
